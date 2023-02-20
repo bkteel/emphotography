@@ -23,6 +23,8 @@ body {
         top: 0;
         left: 0;
         right: 0;
+        padding-top: 12px;
+        padding-bottom: 12px;
         background-color:rgb(110, 148, 145);
         font-family: 'Barlow';  
         z-index: 999;            
@@ -137,22 +139,22 @@ a:link {
         min-width: 0;
 }
 .profile-container {
-        width: 85%;
+        width: 75%;
         display: flex;
         flex-direction: row;      
         margin:auto;
 } 
 .column-content {
         justify-content: flex-start;
-        width: 45%;
-        margin: 160px 80px 80px 20px;
+        /* width: 45%; */
+        margin: 180px 80px 80px 20px;
 } 
 .column-content h1 {
         font-size: 60px;
         font-family: 'Barlow'; 
         display: flex;
         justify-content: center;
-        padding-bottom: 25px;       
+        padding-bottom: 20px;       
 } 
 .column-content p{
         margin: 40px 0px;
@@ -165,14 +167,14 @@ a:link {
         justify-content:center;
         height: 380px;
         width: auto;       
-        margin: 250px 0px 0px 0px;
+        margin: 250px 0px 250px 0px;
 }  
-/* FASHION/EVENTS/TRAVEL PAGES */        
+/* FASHION/EVENTS/TRAVEL PAGES */  
 .slideshow-container {
         max-width: 1000px;
         position: relative;
         margin: auto;
-        padding:100px 0px 5px 0px;
+        padding:15px 0px 5px 0px;
 }     
 .mySlides {
         display: none;
@@ -256,12 +258,13 @@ a:link {
         display: flex;       
         align-items: center;
         flex-direction: column;
+        padding-bottom: 250px;
 }      
 #header{
         padding-top: 200px;
         font-family: 'Barlow'; 
         color:black;
-        font-size: 36px;     
+        font-size: 60px;     
 }  
 .input-field {
         border: 1px solid rgb(110, 110, 110);
@@ -296,7 +299,7 @@ a:link {
 }
 .footer-left {
         display: flex;
-        width: 33%;                
+        width: 50%;                
 }
 .footer-middle{
         display: flex;
@@ -310,7 +313,7 @@ a:link {
         flex-direction: column;  
         justify-content: space-between;   
         align-items:flex-end;
-        width: 33%;
+        width: 50%;
         height: auto;     
 } 
 .social-footer{
